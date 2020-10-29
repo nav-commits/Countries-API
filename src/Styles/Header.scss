@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+$grey-Color: rgb(100, 97, 97);
+
+.wrapper{
+    height: 100px;
+    margin-top: 0;
+    margin-left: 0px;
+    box-shadow: 0 2px 2px -2px $grey-Color;
+
+    .where-World{
+        padding-top:30px;
+        margin: 0px;
+        padding-left: 50px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+.color-change{
+position: absolute;
+right: 70px;
+top: 20px;
+
+}
+
+.moon{
+position: absolute;
+right: 150px;
+top: 40px;
+cursor: pointer;
+}

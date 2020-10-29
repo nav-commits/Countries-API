@@ -1,0 +1,132 @@
+
+$white: rgb(253, 250, 250);
+$body-Color: hsl(0, 0%, 94%);
+$general-color: 0.8px 2px grey;
+$search-color :  hsl(207, 26%, 17%);
+$background-colortwo: hsl(208, 27%, 26%);
+$wrapper-color : rgb(236, 234, 234);
+
+
+input{
+    margin-top: 50px;
+    margin-left: 90px;
+    display: flex;
+}
+
+.Search{
+    padding-left: 60px;
+    padding-right: 240px;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    border-radius: 3px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    box-shadow:$general-color;
+}
+
+.search-icon{
+    position: absolute;
+    padding: 20px;
+    margin-bottom: 90px;
+    margin-left: 90px;
+    color: var(--text);
+}
+
+
+
+
+
+.Dark{
+    background-color: $search-color;
+    height: 100%;
+    color: $white;
+    margin-top: 0;
+    padding-top: 0;
+    width:100%;
+   
+    .grid{
+        background-color: $background-colortwo;
+    }
+
+    .search-icon{
+        color: black;
+    }
+   
+    input{
+        background-color:$background-colortwo;
+        color: $white;
+    }
+
+    .background{
+        background-color: $background-colortwo;
+        color: rgb(231, 226, 226);
+    }
+
+    .wrapper{
+        background-color: $background-colortwo;
+    }
+
+    .btn{
+        border-top: 10px solid rgb(197, 197, 197);
+    }
+    
+    .search-icon{
+     color: $white;
+    }
+    ::placeholder{
+     color:$white;
+    }  
+  
+}
+
+.Light{
+    background-color: $white;
+    color: black;
+    width: 100%;
+    height: 100%;
+
+  .toggler{
+      select{
+          background-color: white;
+          color: black;
+      }
+
+      select:focus,
+      select:hover {
+          border: 1px $search-color;
+      }
+  }
+
+   .grid{
+       background-color: $white;
+       color: black;
+   }
+   
+   span{
+       color: black;
+   }
+
+   h3:hover{
+       background-color: rgb(187, 186, 186);
+   }
+
+   .cover{
+       background-color: $white;
+   }
+
+   .go-Back{
+       background-color: $white;
+       color:black;
+   }
+
+   .back-cover{
+   .buttons{
+       background-color: $white;
+       color:black;
+   }
+}
+}
+
+

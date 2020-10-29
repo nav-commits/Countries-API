@@ -1,0 +1,285 @@
+$background-colortwo: hsl(208, 27%, 26%);
+$search-color :  hsl(207, 26%, 17%);
+
+.toggler{
+
+    select{
+        position: relative;
+        left: 1200px;
+        bottom: 50px;
+        cursor: pointer;
+        padding: 18px 25px 18px 18px;
+        background-color: $background-colortwo;
+        color: white;
+        border-radius: 5px;
+     
+    }
+   
+    select:focus,
+    select:hover {
+        outline: none;
+        border: 1px $search-color;
+    }
+  
+    
+}
+
+
+/// media queries detail part
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  
+    .toggler{
+     .dark{
+         width: 100%;
+     }
+        select{
+            position: relative;
+            left: 840px;
+            bottom: 50px;
+        }
+    
+        
+    }
+    .Dark{
+        height:100%;
+    }
+  }
+
+
+  @media (min-width: 1100px) and (max-width: 1300px) {
+  
+    .toggler{
+     .dark{
+         width: 100%;
+     }
+        select{
+            position: relative;
+            left: 950px;
+            bottom: 50px;
+        }
+    
+        
+    }
+    
+  }
+
+
+  @media (min-width:  865px) and (max-width: 1000px) {
+  
+    .toggler{
+     .dark{
+         width: 100%;
+     }
+        select{
+            position: relative;
+            left: 710px;
+            bottom: 50px;
+        }
+    
+        
+    }
+    
+  }
+
+
+  @media (min-width:  785px) and (max-width: 865px) {
+  
+    .toggler{
+     .dark{
+         width: 100%;
+     }
+        select{
+            position: relative;
+            left: 600px;
+            bottom: 50px;
+        }
+    
+        
+    }
+    
+  }
+
+
+  @media (min-width:  580px) and (max-width: 785px) {
+    .toggler{
+        .dark{
+            width: 100%;
+        }
+           select{
+               position: relative;
+               left: 430px;
+               bottom: 55px;
+               
+           }
+      
+           
+       }
+ 
+       .Search{
+        padding-left: 60px;
+        padding-right: 90px;
+        padding-top: 22px;
+        padding-bottom: 25px;
+    }
+
+
+.container > .grid{
+    margin-top: 40px;
+   
+     
+  }
+    
+  }
+
+
+  @media (min-width:  500px) and (max-width: 580px) {
+    .toggler{
+        .dark{
+            width: 100%;
+        }
+           select{
+               position: relative;
+               left: 100px;
+                top: 20px;
+               
+           }
+      
+           
+       }
+
+    
+ 
+       .Search{
+        padding-left: 60px;
+        padding-right: 180px;
+        padding-top: 22px;
+        padding-bottom: 25px;
+    }
+
+
+.container > .grid{
+    margin-top: 70px;
+   
+     
+  }
+
+  .moon{
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    }
+    .where-World{
+        margin-left: 20px;
+    }
+
+
+
+
+// .container > .grid{
+//     margin-right: 180px;
+//     margin-left: 40px;
+     
+//   }
+  }
+
+
+
+  @media (min-width:  400px) and (max-width: 500px) {
+    .toggler{
+        .dark{
+            width: 100%;
+        }
+           select{
+               position: relative;
+               left: 100px;
+                top: 20px;
+               
+           }
+      
+           
+       }
+ 
+       .Search{
+        padding-left: 70px;
+        padding-right: 60px;
+        padding-top: 22px;
+        padding-bottom: 25px;
+    }
+
+
+.container > .grid{
+    margin-top: 90px;
+   
+     
+  }
+
+  .color-change{
+    position: absolute;
+    left: 85px;
+    top: 55px;
+    
+    }
+    
+    .moon{
+    position: absolute;
+    left: 60px;
+    top: 75px;
+    cursor: pointer;
+    }
+
+
+    
+  }
+
+
+
+
+  @media (min-width:  320px) and (max-width: 400px) {
+    .toggler{
+        .dark{
+            width: 100%;
+        }
+           select{
+               position: relative;
+               left: 100px;
+                top: 20px;
+               
+           }
+      
+           
+       }
+ 
+       .Search{
+        padding-left: 70px;
+        padding-right: 60px;
+        padding-top: 22px;
+        padding-bottom: 25px;
+    }
+
+
+.container > .grid{
+    margin-top: 90px;
+   
+     
+  }
+
+  .color-change{
+    position: absolute;
+    left: 85px;
+    top: 55px;
+    
+    }
+    
+    .moon{
+    position: absolute;
+    left: 60px;
+    top: 75px;
+    cursor: pointer;
+    }
+
+    .searching{
+        margin-left: -65px;
+    }
+    
+  }

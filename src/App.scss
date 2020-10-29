@@ -1,0 +1,12 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    margin: 0 0 0 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import 'Styles/Header.scss';
+@import 'Styles/Body.scss';
+@import 'Styles/Card.scss';
+@import 'Styles/Filters.scss';
+@import 'Styles/Details.scss';
